@@ -2,6 +2,7 @@ package MainFolder.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +24,14 @@ public class Main {
         System.out.println("POLL");
         System.out.println(buyers.poll());
         System.out.println(buyers);
+        System.out.println("------------------");
+        Stack<String> days = new Stack<>();
+        days.add("Monday");
+        days.add("Tuesday");
+        days.add("Wednesday");
+        days.add("Thursday");
+        days.add("Friday");
+        System.out.println(days.pop());
 
     }
 
